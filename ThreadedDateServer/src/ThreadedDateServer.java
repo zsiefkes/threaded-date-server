@@ -22,7 +22,7 @@ public class ThreadedDateServer {
      * Runs the server.
      */
     public static void main(String[] args) throws IOException {
-        int port = 9093;
+        int port = 9094;
         ServerSocket listener = new ServerSocket(port);
         System.out.println("Server started on " + port);
         try {
